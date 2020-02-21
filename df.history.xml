@@ -1238,7 +1238,7 @@
                 <int32_t name='site' ref-target='world_site'/>
             </vmethod>
 
-            <vmethod ret-type='int32_t' name='getKilledHistfigID'>
+            <vmethod name='getKilledHistfigID'>
                 <int32_t name='killer' ref-target='historical_figure'/>
                 <ret-type><int32_t ref-target='historical_figure'/></ret-type>
             </vmethod>
@@ -3102,7 +3102,7 @@
         <stl-vector since='v0.47.01' comment='Not hist figs, nor history events. When looked at like hist figs the first field looks like an index, and history events crashes DF'/>
         <stl-vector name='live_megabeasts' pointer-type='historical_figure'/>
         <stl-vector name='live_semimegabeasts' pointer-type='historical_figure'/>
-        <stl-vector name='unk_histfig_3' pointer-type='historical_figure'/> 
+        <stl-vector name='unk_histfig_3' pointer-type='historical_figure'/>
         <stl-vector name='unk_histfig_4' pointer-type='historical_figure'/>
         <stl-vector name='unk_histfig_5' pointer-type='historical_figure'/>
         <stl-vector since='v0.47.01'/>
@@ -3111,7 +3111,7 @@
         <static-array name='unk_v40_1' since='v0.40.01' count='15'>
             <stl-vector pointer-type='historical_figure'/>
         </static-array>
-        
+
         <stl-vector name='unk_histfig_6' since='v0.42.01' pointer-type='historical_figure'/>
         <stl-vector name='unk_histfig_7' since='v0.42.01' pointer-type='historical_figure'/>
         <stl-vector name='unk_histfig_8' since='v0.42.01' pointer-type='historical_figure'/>
